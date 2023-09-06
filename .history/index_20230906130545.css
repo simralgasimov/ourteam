@@ -13,9 +13,7 @@
 
 .container h1 {
   color: var(--Text_Light_Accent, #ef6d58);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -24,31 +22,12 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.container .collaj-box {
-  display: flex;
-  justify-content: space-between;
-}
-.container .collaj-box .image-box {
-  display: flex;
-  margin-top: 80px;
-}
-.container .collaj-box .image-box .circle {
-  width: 48px;
-  height: 48px;
-  margin-right: 16px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.64);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .container h2 {
   margin-top: 20px;
   width: 532px;
   color: var(--Text_Light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
   font-style: normal;
@@ -58,21 +37,19 @@
 
 .container .container-1 {
   margin-top: 64px;
+  background-color: red;
   display: flex;
   justify-content: space-between;
+  
 }
 .container-1 .box {
-  /* padding: 24px 37px 1px 37px; */
+  padding: 24px 37px 1px 37px;
   width: 23%;
-}
-.container .container-1 .box div {
-  height: 272px;
   border-radius: 6px;
   border: 1px solid #3a3c56;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  background-color: yellow;
 }
+
 .container-1 .box:first-child img {
   width: 196px;
   height: 247px;
@@ -94,9 +71,7 @@
   justify-content: center;
   margin-top: 26px;
   color: var(--Text_Light, #fff);
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 24px;
   font-style: normal;
@@ -107,9 +82,7 @@
 .container .box p {
   margin-top: 3px;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
-  font-feature-settings:
-    "clig" off,
-    "liga" off;
+  font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
@@ -120,6 +93,7 @@
 .container .container-1 .box h3:nth-child(2) {
   width: 233px;
 }
+
 
 .container-2 {
   background: #28293e;
